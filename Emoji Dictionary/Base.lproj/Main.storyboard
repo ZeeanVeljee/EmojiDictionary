@@ -82,6 +82,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="emojiDefinitonLabel" destination="zur-fD-KbD" id="2HY-yV-NhE"/>
                         <outlet property="emojiLabel" destination="Ihc-PI-Or9" id="taL-sA-3p5"/>
                     </connections>
                 </viewController>

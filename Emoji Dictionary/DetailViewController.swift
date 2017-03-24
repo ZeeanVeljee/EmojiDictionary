@@ -11,12 +11,32 @@ import UIKit
 class DetailViewController: UIViewController {
 
     @IBOutlet weak var emojiLabel: UILabel!
+    @IBOutlet weak var emojiDefinitonLabel: UILabel!
     var emojiData = "null"
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         emojiLabel.text = emojiData
+        
+        if emojiLabel.text == "🍕" {
+            emojiDefinitonLabel.text = "Its a slice of pizza!"
+        }
+        else if emojiLabel.text == "🔥" {
+            emojiDefinitonLabel.text = "oOoh Fire!"
+        }
+        else if emojiLabel.text == "🐴" {
+            emojiDefinitonLabel.text = "Gallop Gallop! Its a horse!"
+        }
+        else if emojiLabel.text == "👗" {
+            emojiDefinitonLabel.text = "Its a pretty dress"
+        }
+        else if emojiLabel.text == "👘" {
+            emojiDefinitonLabel.text = "Its a weird Asian Dress"
+        }
+        else if emojiLabel.text == "🚶" {
+            emojiDefinitonLabel.text = "Stud boy!"
+        }
     }
 
     override func didReceiveMemoryWarning() {
