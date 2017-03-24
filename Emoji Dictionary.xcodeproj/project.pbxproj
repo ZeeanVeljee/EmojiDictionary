@@ -14,6 +14,7 @@
 		595E49681E8586460056FFFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595E49661E8586460056FFFB /* LaunchScreen.storyboard */; };
 		595E49731E8586470056FFFB /* Emoji_DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E49721E8586470056FFFB /* Emoji_DictionaryTests.swift */; };
 		595E497E1E8586470056FFFB /* Emoji_DictionaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E497D1E8586470056FFFB /* Emoji_DictionaryUITests.swift */; };
+		595E498C1E859D610056FFFB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E498B1E859D610056FFFB /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		595E49791E8586470056FFFB /* Emoji DictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emoji DictionaryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		595E497D1E8586470056FFFB /* Emoji_DictionaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_DictionaryUITests.swift; sourceTree = "<group>"; };
 		595E497F1E8586470056FFFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		595E498B1E859D610056FFFB /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				595E495D1E8586460056FFFB /* AppDelegate.swift */,
 				595E495F1E8586460056FFFB /* ViewController.swift */,
 				595E49611E8586460056FFFB /* Main.storyboard */,
+				595E498B1E859D610056FFFB /* DetailViewController.swift */,
 				595E49641E8586460056FFFB /* Assets.xcassets */,
 				595E49661E8586460056FFFB /* LaunchScreen.storyboard */,
 				595E49691E8586460056FFFB /* Info.plist */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				595E498C1E859D610056FFFB /* DetailViewController.swift in Sources */,
 				595E49601E8586460056FFFB /* ViewController.swift in Sources */,
 				595E495E1E8586460056FFFB /* AppDelegate.swift in Sources */,
 			);
